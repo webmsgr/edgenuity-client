@@ -4,7 +4,9 @@
   "description": "A \"Client\" for edgenuity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/webmsgr/edgenuity-client/issues"
   },
-  "homepage": "https://github.com/webmsgr/edgenuity-client#readme"
+  "homepage": "https://github.com/webmsgr/edgenuity-client#readme",
+  "dependencies": {
+    "js-base64": "^3.6.0"
+  },
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "wackery.edgenuity-client"
+  }
 }
