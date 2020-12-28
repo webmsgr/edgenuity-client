@@ -1,0 +1,19 @@
+{
+  "name": "edgenuity-client",
+  "version": "0.0.1",
+  "description": "A \"Client\" for edgenuity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmsgr/edgenuity-client.git"
+  },
+  "author": "wackery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webmsgr/edgenuity-client/issues"
+  },
+  "homepage": "https://github.com/webmsgr/edgenuity-client#readme"
+}
