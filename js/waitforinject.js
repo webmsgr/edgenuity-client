@@ -9,5 +9,5 @@ function inject() {
 
 window.injectitv = setInterval(inject,100)
 document.querySelector("#stageFrame").addEventListener("load", (evt) => {
-    window.injectitv = setInterval(inject,100)
+    setTimeout(inject,1000)
 })
