@@ -1,9 +1,9 @@
 const { app, BrowserWindow } = require('electron')
 const fs = require('fs')
 const {Base64} = require('js-base64');
-skipper = Base64.encode(fs.readFileSync("skipper/release/skipper.min.js"))
+skipper = Base64.encode(fs.readFileSync("js/skipper/release/skipper.min.js"))
 
-waitforinject = fs.readFileSync("waitforinject.js","ascii")
+waitforinject = fs.readFileSync("js/waitforinject.js","ascii")
 waitforinject = waitforinject.replace("$code",skipper)
 function createWindow () {
   const win = new BrowserWindow({

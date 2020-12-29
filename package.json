@@ -26,6 +26,12 @@
     "electron-builder": "^22.9.1"
   },
   "build": {
-    "appId": "wackery.edgenuity-client"
+    "appId": "wackery.edgenuity-client",
+    "extraFiles": [
+      "js"
+    ],
+    "win": {
+      "target": "portable"
+    }
   }
 }
