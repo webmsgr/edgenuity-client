@@ -1,6 +1,6 @@
 {
   "name": "edgenuity-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A \"Client\" for edgenuity",
   "main": "index.js",
   "scripts": {
