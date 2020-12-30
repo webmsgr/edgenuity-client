@@ -28,7 +28,7 @@
   "build": {
     "appId": "wackery.edgenuity-client",
     "extraFiles": [
-      "js"
+      "modules"
     ],
     "win": {
       "target": "portable"

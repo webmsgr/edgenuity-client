@@ -1,8 +1,8 @@
-code = atob("$code")
+
 
 function inject() {
     if (typeof document.querySelector("#stageFrame").contentWindow.API.Video !== undefined) {
-        eval(code) // lmao
+        $.getScript("https://webmsgr.github.io/edgenuity-skipper/release/skipper.min.js")
         clearInterval(window.injectitv)
     }
 }
