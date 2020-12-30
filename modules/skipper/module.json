@@ -1,12 +1,10 @@
 {
-    "name":"edgenuity-skipper",
-    "inject": [
-        {
-            "url":"r05.core.learn.edgenuity.com/Player/",
-            "script": "waitforinject.js"
-        }
-    ],
-    "settings": [
-        
-    ]
+  "name": "edgenuity-skipper",
+  "inject": [
+    {
+      "url": "r05.core.learn.edgenuity.com/Player/",
+      "script": "waitforinject.js"
+    }
+  ],
+  "settings": []
 }
